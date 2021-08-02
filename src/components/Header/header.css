@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background: #20232a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+.navbar {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-size: 50px;
+  text-decoration: none;
+  color: #54b5d1;
+  font-family: Amatic SC, cursive;
+  margin-right: 40px;
+}
+.title:hover {
+  font-size: 51px;
+  transform: 0.2s;
+  color: #61dafb;
+}
+.favourites {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+
+  color: #a4a5a7;
+}
+.search {
+  width: 250px;
+  height: 23px;
+  padding-left: 7px;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  margin-right: 80px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  color: #a4a5a7;
+
+  background: transparent;
+  border: 0;
+  font-weight: 700;
+}
+body {
+  background: url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.container {
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(46, 40, 40, 0.493);
+}
